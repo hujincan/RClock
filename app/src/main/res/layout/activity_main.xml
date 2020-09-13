@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <org.bubbble.rclock.view.ClockView
+        android:id="@+id/clockView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="50dp">
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/styleSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/dreamButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/clockPoint"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:text="@string/set_as_dream"/>
+
+            <Button
+                android:id="@+id/wallpaperButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/clockPoint"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:text="@string/set_as_wallpaper"/>
+            <Button
+                android:id="@+id/codeLink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/clockPoint"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:text="@string/open_resource"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

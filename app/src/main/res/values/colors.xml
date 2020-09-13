@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#073042</color>
+    <color name="colorPrimaryDark">#073042</color>
+    <color name="colorAccent">#3DDC84</color>
+
+    <!-- LightClockColor -->
+    <color name="clockBackgroundLight">#D7EFFE</color>
+    <color name="clockDialLight">#3DDD84</color>
+    <color name="clockPointLight">#073042</color>
+    <color name="clockPointUnFocusLight">#33073042</color>
+    <color name="clockShadowStartLight">#14000000</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="blank">#000</color>
+    <color name="white">#fff</color>
+    <color name="secondaryWhite">#B3FFFFFF</color>
+    <color name="blankText">#222222</color>
+    <color name="textColor">#666666</color>
+
+    <!-- DarkClockColor -->
+    <color name="clockBackground">#073042</color>
+    <color name="clockDial">#3DDD84</color>
+    <color name="clockPoint">#D7EFFE</color>
+    <color name="clockPointUnFocus">#33D7EFFE</color>
+    <color name="clockShadowStart">#4D000000</color>
+
+</resources>
